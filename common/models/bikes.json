@@ -1,0 +1,28 @@
+{
+  "name": "Bikes",
+  "plural": "Davidson",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "HarleyDavidson": {
+      "type": "string",
+      "required": true
+    },
+    "Pulsar": {
+      "type": "string",
+      "required": true
+    },
+    "ktm": {
+      "type": "string",
+      "required": true,
+      "default": "series"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
